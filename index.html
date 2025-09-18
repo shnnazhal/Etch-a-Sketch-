@@ -7,14 +7,13 @@
     <style>
         #container1 {
             display: flex;
-            align-content: center;
-            align-items: center;
             justify-content: center;
-            justify-items: center;
         }
-
-
-
+        #buttoncont {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
 
         #container {
             width: 400px;
@@ -25,9 +24,8 @@
         }
 
         .square {
-            width: 12.5px;
-            height: 12.5px;
-            background-color: lightblue;
+            width: 6.25px;
+            height: 6.25px;
             border: 1px solid black;
             box-sizing: border-box;
         }
@@ -36,6 +34,11 @@
 <body>
 <div id="container1">
     <div id="container"></div>
+</div>
+<div id="buttoncont">
+    <button id="buttonr">Resset all</button>
+    <button id="alert">Format</button>
+
 </div>
 </body>
 </html>
