@@ -4,12 +4,18 @@ let isHolding = false;
 let pressedElements = [];
 
 document.querySelector("#large").addEventListener("click", () => {
+    const container = document.getElementById('container');
+    container.innerHTML = '';
     return createSquares(large)
 })
 document.querySelector("#medium").addEventListener("click", () => {
+    const container = document.getElementById('container');
+    container.innerHTML = '';
     return createSquares(medium)
 })
 document.querySelector("#small").addEventListener("click", () => {
+    const container = document.getElementById('container');
+    container.innerHTML = '';
     return createSquares(small)
 })
 
